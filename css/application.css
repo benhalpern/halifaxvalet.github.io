@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  background: url(./halifax.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.main-wrapper {
+  *zoom: 1;
+  max-width: 55.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 10px;
+  opacity: 0;
+  box-shadow: 0px 0px 20px #000;
+  margin-bottom: 80px; }
+  .main-wrapper:before, .main-wrapper:after {
+    content: " ";
+    display: table; }
+  .main-wrapper:after {
+    clear: both; }
+
+.header {
+  display: block;
+  float: left;
+  margin-right: 2.12766%;
+  width: 100%;
+  border-bottom: 20px solid #000836;
+  margin-bottom: 10px; }
+  .header:last-child {
+    margin-right: 0; }
+  .header .main-pic {
+    display: block;
+    float: left;
+    margin-right: 2.12766%;
+    width: 31.91489%; }
+    .header .main-pic:last-child {
+      margin-right: 0; }
+  .header .title {
+    display: block;
+    float: left;
+    margin-right: 2.12766%;
+    width: 65.95745%; }
+    .header .title:last-child {
+      margin-right: 0; }
+
+nav {
+  text-align: center;
+  margin-bottom: 20px; }
+  nav a {
+    color: #000836;
+    margin: 10px;
+    text-decoration: none; }
+
+.content {
+  display: block;
+  float: left;
+  margin-right: 2.12766%;
+  width: 100%;
+  position: relative; }
+  .content:last-child {
+    margin-right: 0; }
+  .content img {
+    border-radius: 10px; }
+  .content .call-to-action {
+    position: absolute;
+    left: 330px;
+    top: 400px;
+    padding: 20px;
+    background: white;
+    border: 3px solid #D9ABB6;
+    opacity: 0; }
+    .content .call-to-action h1 {
+      font-size: 4em;
+      margin: 0;
+      color: #404040; }
+  .content.map-part {
+    margin-top: 100px;
+    height: 900px; }
+    .content.map-part h1 {
+      text-align: center;
+      font-size: 4em; }
+    .content.map-part img {
+      width: 100%; }
+  .content.price-list {
+    margin-top: 100px; }
+    .content.price-list h1 {
+      text-align: center;
+      font-size: 4em; }
+  .content.contact {
+    margin-top: 30px;
+    text-align: center;
+    color: #000836;
+    border-radius: 8px;
+    border: 6px solid #D9ABB6;
+    padding-bottom: 60px; }
+    .content.contact h1 {
+      font-size: 4em; }
+    .content.contact a {
+      color: #5a5a5a;
+      text-decoration: none; }
+  .content.contact {
+    margin-top: 30px;
+    text-align: center;
+    color: #000836;
+    border-radius: 8px;
+    border: 6px solid #D9ABB6;
+    padding-bottom: 60px; }
+    .content.contact h1 {
+      font-size: 4em; }
+    .content.contact a {
+      color: #5a5a5a;
+      text-decoration: none; }
+
+/*# sourceMappingURL=application.css.map */

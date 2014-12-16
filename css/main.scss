@@ -1,0 +1,125 @@
+$dark-gray:#404040;
+$pink: #D9ABB6;
+$navy: #000836;
+
+body{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	background: url(./halifax.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
+.main-wrapper{
+	@include outer-container;
+	background:white;
+	padding:30px;
+	margin-top:100px;
+	border-radius:10px;
+	opacity:0;
+	box-shadow: 0px 0px 20px #000;
+	margin-bottom:80px;
+}
+
+
+
+.header{
+	@include span-columns(12);
+	.main-pic{
+		@include span-columns(4);
+	}
+	.title{
+		@include span-columns(8);
+	}
+	border-bottom: 20px solid $navy;
+	margin-bottom:10px;
+
+}
+
+nav{
+	text-align:center;
+	a{
+		color:$navy;
+		margin:10px;
+		text-decoration:none;
+	}
+	margin-bottom:20px;
+}
+
+.content{
+	@include span-columns(12);
+	position:relative;
+	img{
+		border-radius:10px;
+	}
+	.call-to-action{
+		position:absolute;
+		left:330px;
+		top:400px;
+		padding:20px;
+		background:white;
+		border:3px solid $pink;
+		opacity:0;
+		h1{
+			font-size:4em;
+			margin:0;
+			color:$dark-gray;
+		}
+	}
+
+	&.map-part{
+		margin-top:100px;
+		height:900px;
+		h1{
+			text-align:center;
+			font-size:4em;
+		}
+		img{
+			width:100%;
+		}
+	}
+	&.price-list{
+		margin-top:100px;
+		h1{
+			text-align:center;
+			font-size:4em;
+		}
+	}
+
+	&.contact{
+		margin-top:30px;
+		text-align:center;
+		color:$navy;
+		border-radius: 8px;
+		border:6px solid $pink;
+		padding-bottom:60px;
+		h1{
+			font-size:4em;
+		}
+		a{
+			color:lighten($dark-gray,10%);
+			text-decoration:none;
+		}
+	}
+
+	&.contact{
+		margin-top:30px;
+		text-align:center;
+		color:$navy;
+		border-radius: 8px;
+		border:6px solid $pink;
+		padding-bottom:60px;
+		h1{
+			font-size:4em;
+		}
+		a{
+			color:lighten($dark-gray,10%);
+			text-decoration:none;
+		}
+	}
+	
+
+}
