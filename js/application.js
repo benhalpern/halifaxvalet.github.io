@@ -22,6 +22,5 @@ $(document).ready(function(){
 
 function launchAnimation(){
 	$(".call-to-action").animate({"top":"200px","opacity":"1"},1300)
-	$(".main-wrapper").animate({"margin-top":"20px","opacity":"1"},800)
 	
 }
