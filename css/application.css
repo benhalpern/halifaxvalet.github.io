@@ -19,9 +19,9 @@ body {
   margin-right: auto;
   background: white;
   padding: 30px;
-  margin-top: 100px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px #000;
+  margin-top: 60px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #1a4088;
   margin-bottom: 80px; }
   .main-wrapper:before, .main-wrapper:after {
     content: " ";
